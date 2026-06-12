@@ -1,12 +1,12 @@
 from crewai import Agent
 from config import settings
 
+bio_transformer=Agent(
 
-bio_specialist=Agent(
     role="",
     backstory="",
-    goal= "",
-    allow_delegation= False,
-    verbose= True,
+    goal="",
+    allow_delegation="",
+    verbose="",
     llm=""
 )

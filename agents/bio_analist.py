@@ -1,12 +1,11 @@
 from crewai import Agent
 from config import settings
 
-
-bio_specialist=Agent(
+bio_analist=Agent(
     role="",
     backstory="",
-    goal= "",
-    allow_delegation= False,
-    verbose= True,
+    goal="",
+    allow_delegation=True,
+    verbose=True,
     llm=""
 )
